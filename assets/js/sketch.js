@@ -20,7 +20,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     noStroke();
     // textFont('MS Gothic', 32);
-    setParameterGlobal("data/config.txt");
+    setParameterGlobal("./assets/data/config.txt");
     loadImages();
     // fonta = loadFont('AngsanaNew-Bold-120');
     scene = -1;
